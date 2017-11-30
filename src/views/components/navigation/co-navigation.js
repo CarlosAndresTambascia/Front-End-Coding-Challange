@@ -5,7 +5,8 @@ import logo from './logo.png'
 
 class Navigation extends React.Component {
     render () {
-        return (<Navbar className='background'>
+        return (<Navbar className='background'  trigger={<Button>SIDE NAV DEMO</Button>}
+                        options={{ closeOnClick: true }}>
             <img  className='avalith' src={logo} alt="Avalith logo"/>
         </Navbar>);
     }

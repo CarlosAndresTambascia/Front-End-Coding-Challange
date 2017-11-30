@@ -1,5 +1,5 @@
 import React from "react"
-import {Button, SideNav, SideNavItem, Row, Input} from 'react-materialize'
+import {Button, SideNav, Row, Input} from 'react-materialize'
 import './co-side.css'
 
 
@@ -16,9 +16,9 @@ class Side extends React.Component {
                     <Input s={20} label="Search in cards" validate/>
                 </Row>
                 <Row>
-                    <p className='Filter-by'>Filter by</p>
+                    <p className='Filter-by '>Filter by</p>
                 </Row>
-                <Row className='FrontBack'>
+                <Row className='FrontBack FrontMargin '>
                     <Input name='group1' type='radio' value='Frontend' label='Frontend' className='with-gap' />
                 </Row>
                 <Row className='FrontBack'>

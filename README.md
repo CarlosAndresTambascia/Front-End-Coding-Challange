@@ -1,21 +1,50 @@
+## Build Setup
+
+``` bash
+
+# install dependencies
+
+npm install
+
+# serve with hot reload at localhost:3000
+npm run dev
+
+# build for production with minification
+npm run build
+
+#either you can run everithing with the following command
+npm start
+
+```
+
 
 After creation, your project should look like this:
 
 ```
-my-app/
+Front-End-Coding-Challange/
   README.md
   node_modules/
   package.json
   public/
     index.html
-    favicon.ico
+    favicon.png
   src/
-    App.css
-    App.js
-    App.test.js
-    index.css
-    index.js
-    logo.svg
+     views/
+        components/
+            navigation/
+                co-navigation.css
+                co-navigation.js
+                logo.png
+            side/
+                co-side.css
+                co-side.js
+     App.css
+     App.js
+     App.test.js
+     index.css
+     index.js
+     logo.svg
+     registerServiceWorker.js
 ```
 
 For the project to build, **these files must exist with exact filenames**:
